@@ -2,11 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f65582-17d3-42ee-a3dc-0f84ffd3ba4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/js/imakewebthings-waypoints-latest-0-g34d9f6d.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/post_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/post_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/user_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/notlogged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/EVE_X1A21OV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/PANDA_DOIDO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/_downloadfiles_wallpapers_1920_1200_blown_dandelion_17114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_face/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_face/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_face/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_face/urls.py" afterDir="false" />
@@ -19,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -37,8 +73,46 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/users" />
+      <recent name="$PROJECT_DIR$/core/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django_face" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,5 +138,49 @@
       <updated>1579279732660</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="99" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1579626789535">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="372" y="99" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.821@0.23.1440.821" timestamp="1579282624264" />
+    <state x="372" y="99" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.824@0.23.1440.824" timestamp="1579626789535" />
+    <state width="1419" height="257" key="GridCell.Tab.0.bottom" timestamp="1579478408196">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="257" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1579478408196" />
+    <state width="1419" height="257" key="GridCell.Tab.0.center" timestamp="1579478408195">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="257" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1579478408195" />
+    <state width="1419" height="257" key="GridCell.Tab.0.left" timestamp="1579478408194">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="257" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1579478408194" />
+    <state width="1419" height="257" key="GridCell.Tab.0.right" timestamp="1579478408195">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="257" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1579478408195" />
+    <state x="222" y="65" key="SettingsEditor" timestamp="1579622791388">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="222" y="65" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1579622791388" />
+    <state x="419" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1579622772322">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="419" y="250" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1579622772322" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/forms.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
